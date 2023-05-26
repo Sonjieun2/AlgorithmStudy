@@ -7,6 +7,5 @@ for i in croatia :
     
     else :
         continue
-
-print(word)
+    
 print(len(word))

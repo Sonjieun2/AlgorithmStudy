@@ -8,6 +8,5 @@ result = 0
 for i in range(0, len(str)) :
     sum = Alpa.index(str[i])*(n**i)
     result += sum
-    print(result)
 
 print(result)
