@@ -2,10 +2,13 @@ import sys
 input = sys.stdin.readline
 
 def T(a) :
-    for i in range(2, (a//2)) :
-        if a%i == 0 :
-            return False
-    return True
+    if a == 0 or a == 1 :
+        return False
+    else :
+        for i in range(2, int((a**(1/2))+1)) :
+            if a%i == 0 :
+                return False
+        return True
 
 N = int(input())
 result = []
